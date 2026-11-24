@@ -14,10 +14,11 @@ pre{background:#f3f3f3;padding:12px;white-space:pre-wrap}
 <p>Oder schreiben Sie selbst an <b>kinoabend.asg@gmail.com</b> mit dem Betreff <b>Kartenreservierungsanfrage Kinoabend</b> und diesem Text:</p>
 <pre>Name: 
 Tickets: </pre>
+<p style="margin-top:32px;font-size:13px"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
 <script>
 var body = "Guten Tag,\r\n\r\nso reservieren Sie Ihre Karten:\r\n1. Tragen Sie hinter \"Name:\" Ihren vollständigen Vor- und Nachnamen ein.\r\n2. Tragen Sie hinter \"Tickets:\" die gewünschte Anzahl ein (1 bis 10).\r\n3. Betreff und Bezeichnungen nicht ändern, dann die E-Mail absenden.\r\nDie Bestätigung erhalten Sie automatisch per E-Mail.\r\n\r\nName: \r\nTickets: ";
 var url = "mailto:kinoabend.asg@gmail.com?subject=" + encodeURIComponent("Kartenreservierungsanfrage Kinoabend") + "&body=" + encodeURIComponent(body);
 document.getElementById("m").href = url;
 setTimeout(function(){ location.href = url; }, 300);
-</script>
 </body></html>
+</script>
